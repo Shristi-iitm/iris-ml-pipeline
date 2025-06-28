@@ -23,5 +23,4 @@ print(f"Model Accuracy: {accuracy:.4f}")
 # Save the score to a file for the CML report
 with open("evaluation_report.txt", "w") as f:
     f.write(f"## Model Evaluation Report\n\n")
-    f.write(f"*   *Accuracy:* {accuracy:.4f}\n")O
-
+    f.write(f"*   *Accuracy:* {accuracy:.4f}\n")
